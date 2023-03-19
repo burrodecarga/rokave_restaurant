@@ -53,7 +53,7 @@ export default function Agregar() {
 
   const handleUploadError = error => {
     setLoading(false)
-    console.log(error)
+    console.log(error.message)
   }
 
   const handleUploadSuccess = async nombre => {
